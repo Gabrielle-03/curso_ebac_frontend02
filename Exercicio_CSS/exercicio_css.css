@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body > header {
+    background-color: rgb(58, 47, 43);
+    padding: 30px 0;
+    color: rgb(122, 121, 121);
+}
+
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color:rgb(122, 121, 121) ;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+section .artigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigo article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.artigo article {
+    margin-bottom: 16px;
+}
+
+.artigo article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigo article a {
+    background-color: cornflowerblue;
+    color:blanchedalmond;
+    padding: 8px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigo article a:hover {
+    text-decoration: underline;
+}
+
+.artigo article p ,
+.artigo article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigo article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#espor {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#espor .artigo article a {
+    background-color: darkolivegreen;
+}
+
+#econo {
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+#econo .artigo article a {
+    background-color: rgb(118, 111, 51);
+}
+
+#music {
+    background-color: rgba(144, 0, 255, 0.1);
+}
+
+#music .artigo article a {
+    background-color: rgb(81, 47, 107);
+}
+
+#educa {
+    background-color: rgba(0, 255, 247, 0.1);
+}
+
+#educa .artigo article a {
+    background-color: rgb(51, 104, 118);
+}
